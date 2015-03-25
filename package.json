@@ -1,12 +1,12 @@
 {
   "name": "insight-bitcore",
-  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the bitcoin network and build your own services with it.",
+  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the litecoin network and build your own services with it.",
   "version": "0.2.5",
   "author": {
     "name": "Ryan X Charles",
     "email": "ryan@bitpay.com"
   },
-  "repository": "git://github.com/bitpay/insight.git",
+  "repository": "git://github.com/paytokens/paysight.git",
   "contributors": [
     {
       "name": "Matias Alejo Garcia",
@@ -38,7 +38,7 @@
     "insight",
     "blockchain",
     "blockexplorer",
-    "bitcoin",
+    "litecoin",
     "bitcore",
     "front-end"
   ],
@@ -46,7 +46,7 @@
     "start": "INSIGHT_PUBLIC_PATH=public node node_modules/.bin/insight-bitcore-api"
   },
   "dependencies": {
-    "insight-bitcore-api": ">0.2.10"
+    "insight-bitcore-api": "git://github.com/paytokens/paysight-api.git#d4b858269279f99154318f3111f493a021e5cfc4"
   },
   "devDependencies": {
     "bower": "~1.2.8",
